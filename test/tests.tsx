@@ -8,7 +8,6 @@ let numErrs = 0;
 let logCompare = true;
 
 const res = tests();
-if('process' in globalThis) process.exit(res);
 
 function tests() {
   functest();

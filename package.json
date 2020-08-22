@@ -1,30 +1,21 @@
 {
   "name": "jsxrender",
-  "version": "0.9.7f",
+  "version": "0.9.8",
   "description": "Small fast stateless subset of React.",
-  "main": "public/main.js",
+  "main": "out/jsxrender.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/martyntebby/jsxrender.git"
   },
-  "config": {
-    "port": 3000,
-    "dolog": false,
-    "worker": "service",
-    "perftest": 0
-  },
   "scripts": {
-    "build": "rm -rf dist out public/main.js && tsc -b . --force && node dist/bundle.js",
+    "build": "rm -rf dist out && tsc -b . --force",
     "watch": "tsc -b . -w --listEmittedFiles",
     "clean": "rm -rf dist",
-    "start": "node .",
-    "deno": "deno run --allow-net --allow-read public/main.js",
-    "test": "node dist/tests.js"
+    "test": "node dist/test/tests.js"
   },
   "author": "Martyn Tebby",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "12.12.6",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
     "typescript": "^3.9.5"

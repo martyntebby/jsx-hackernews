@@ -10,11 +10,6 @@ It is written in typescript and useable with the React @type files
 (see package.json).
 The generated file out/jsxrender.js can be used with regular javascript.
 
-Hacker News Demo
-----------------
-A simple Hacker News demo app using jsxrender.
-It is based on [hnpwa.com](https://hnpwa.com), using a service worker and app shell.
-
 Build
 -----
 npm install
@@ -23,26 +18,12 @@ npm run build
 
 npm test
 
-Performance
------------
-Taken from webpagetest.org on a Moto G4.
+Hacker News Demo
+----------------
+A simple Hacker News demo app using jsxrender.
 
-Lighthouse: 100/100
-
-Interactive (LTE): 1.1s
-
-Interactive (fast 3G): 1.4s
-
-Interactive (slow 3G): 2.4s
+[jsxdemo](https://github.com/martyntebby/jsxdemo)
 
 Try it
 ------
-[westinca.com](https://jsxrender.westinca.com/public/)
-
-Alternatives
-------------
-[rawgit](https://cdn.rawgit.com/martyntebby/jsxrender/0.9.7/public/)
-
-[githack](https://rawcdn.githack.com/martyntebby/jsxrender/0.9.7/public/)
-
-[github pages](http://martyntebby.github.io/jsxrender/public/)
+[westinca.com](https://jsxdemo.westinca.com/public/)

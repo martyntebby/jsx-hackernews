@@ -3,7 +3,5 @@
   "references": [
     { "path": "src" },
     { "path": "test" },
-    { "path": "demo" },
-    { "path": "scripts" },
   ],
 }
