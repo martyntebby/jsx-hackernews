@@ -1,7 +1,8 @@
 {
   "name": "jsxrender",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "description": "Small fast stateless subset of React.",
+  "homepage": "https://github.com/martyntebby/jsxrender#readme",
   "main": "out/jsxrender.js",
   "repository": {
     "type": "git",
@@ -16,9 +17,9 @@
   "author": "Martyn Tebby",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^16.9.41",
-    "@types/react-dom": "^16.9.8",
-    "typescript": "^3.9.5"
+    "typescript": "^4.1.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
   },
   "dependencies": {}
 }

@@ -1,5 +1,5 @@
 /*
-  Implements React.createElement (and experimental jsx/jsxs)
+  Implements React.createElement and jsx
   to return string instead of JSX.Element.
 */
 export { h, h as createElement, jsx, jsx as jsxs, Fragment, renderToStaticMarkup };
@@ -16,10 +16,6 @@ function h(type: string|Function, props?: Props|null, ...children: NodeType[]): 
   props2.children = children;
   return type(props2);
 }
-
-// https://github.com/microsoft/TypeScript/issues/34547
-// https://github.com/reactjs/rfcs/blob/createlement-rfc/text/0000-create-element-changes.md
-// https://babeljs.io/blog/2020/03/16/7.9.0
 
 function jsx(type: string|Function, props: Props, key?: unknown
 //    ,isStaticChildren?: boolean, source?: unknown, self?: unknown // jsxDEV

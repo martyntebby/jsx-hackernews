@@ -3,6 +3,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "outDir": "../dist",
+//    "jsxImportSource": "../src",  // react-jsx slower
     "jsx": "react",
   }
 }
